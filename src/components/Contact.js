@@ -20,9 +20,13 @@ const Contact = () =>{
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: encode({ "form-name": "contact", name, email, message }),
+
       })
         .then(() => alert("Message sent!"))
         .catch((error) => alert(error));
+        setName("");
+        setEmail("");
+        setMessage("");
     }
 
     return (
