@@ -38,7 +38,7 @@ const Contact = () =>{
                     maurice@gedney.uk
                 </a>
             </div>
-            <form netlify name="contact" onSubmit={handleSubmit}>
+            <form netlify name="contact" onSubmit={handleSubmit} method='POST'>
                 <h2  class='contact_section_title'>
                     Hire Me
                 </h2>
