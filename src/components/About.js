@@ -22,8 +22,8 @@ const About = ({ lightTheme }) =>{
                     </a>
                 </div>
             </div>
-            <div  id="about_img">
-                <img alt="hero" src="./coding.svg" />
+            <div  id="about_img_container">
+                <img alt="hero" src="./coding.svg" id='about_img'/>
             </div>
         </section>
     );
