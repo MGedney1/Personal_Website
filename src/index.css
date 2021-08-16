@@ -168,7 +168,7 @@ a:active{
 }
 .project_img{
     height: 300px;
-    max-width: 100%;
+    max-width: 100%; 
 }
 
 
@@ -222,9 +222,8 @@ a:active{
     justify-content: center;
 }
 
-#contact_submit{
+#contact_submit, #contact_reset{
     background-color: transparent;
     color: inherit;
-    margin-top: 25px;
-    margin-bottom: 100px;
+    margin: 25px 25px 50px 25px;
 }

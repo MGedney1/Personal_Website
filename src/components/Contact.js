@@ -24,9 +24,7 @@ const Contact = () =>{
       })
         .then(() => alert("Message sent!"))
         .catch((error) => alert(error));
-        setName("");
-        setEmail("");
-        setMessage("");
+      
     }
 
     return (
@@ -71,6 +69,9 @@ const Contact = () =>{
                     <div  id='contact_submit_container'>
                         <button type="submit" id='contact_submit'>
                             Submit
+                        </button>
+                        <button type="reset" id='contact_reset'>
+                            Clear
                         </button>
                     </div>
                 </div>
