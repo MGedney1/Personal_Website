@@ -1,0 +1,226 @@
+/* ----------------------------------------------------------- Whole App styling ---------------------------------------------------------------------*/
+
+body { 
+    margin: 0; 
+    padding: 0; 
+} 
+
+main{
+    transition: all 0.5s;
+}
+
+#app_container{
+    margin: 0px 10px;
+}
+
+.Light{                                               
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #FBFAF5;
+    color: #020202;
+}
+
+.Dark{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #FBFAF5;
+    background-color: #020202;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    padding: 5px;
+}
+
+a:hover{
+    text-shadow: 1px 1px rgba(0,0,0,0.2);
+}
+
+a:active{
+    text-shadow: 1px 1px rgba(0,0,0,0.4);
+}
+
+
+/* ------------------------------------------------------- Navbar component styling -----------------------------------------------------------------*/
+
+#navbar {                                           
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    z-index: 0;
+    justify-content: center;
+    padding: 10px 0px;
+    transition: all 0.5s;
+}
+
+.navbar_light{
+    background-color: #FBFAF5;
+    border-bottom:2px solid #020202;
+}
+
+.navbar_dark{
+    background-color: #020202;
+    border-bottom:2px solid #FBFAF5;
+}
+
+#navbar_about{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 1.5em;
+}
+
+#navbar_nav{
+    flex-grow: 1;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+
+#theme_container{
+    margin: 0px 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+#theme_title{
+    margin-right: 10px;
+    font-weight: normal;
+}
+
+#navbar_hire{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.arrow_right_icon{
+    height: 20px;
+    width: auto;
+    margin: 5px
+}
+
+
+/* -------------------------------------------------------- About component styling -----------------------------------------------------------------*/
+
+#about{
+    display: flex;
+    justify-content: center;
+}
+
+#about_title_text{
+    font-size: 2em;
+}
+
+#about_links_container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+
+
+
+
+/* ------------------------------------------------------- Projects component styling ----------------------------------------------------------------*/
+
+#projects{
+    margin-top: 50px;
+}
+
+#projects_title{
+    font-size: 2em;
+}
+
+#code_icon_container{
+    display: flex;
+    justify-content: center;
+}
+
+#code_icon{
+    height: 50px;
+    width: auto;
+}
+
+.project_container{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project_subcontainer{
+    width: 50%;
+    margin: 5px;
+}
+
+.project_img_container{
+    width: 48%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.project_img{
+    height: 300px;
+}
+
+
+/* ------------------------------------------------------- Skills component styling -----------------------------------------------------------------*/
+
+#skills{
+    margin-top: 50px;
+}
+
+#skills_title{
+    font-size: 2em;
+}
+
+.skill_single{
+    margin: 10px 0px;
+}
+
+.skills_badge_icon{
+    height: 15px;
+    color: green;
+}
+
+
+/* ------------------------------------------------------- Contact component styling -----------------------------------------------------------------*/
+
+#contact_title{
+    font-size: 2em;
+}
+
+.contact_section_title {
+    font-size: 1.25em;
+}
+
+#contact_form_container{
+    width: 50%;
+}
+
+.contact_section_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#name, #email, #message{
+    width: 300px;
+    margin: 10px 0px;
+}
+
+#contact_submit_container{
+    display: flex;
+    justify-content: center;
+}
+
+#contact_submit{
+    background-color: transparent;
+    color: inherit;
+    margin-top: 25px;
+    margin-bottom: 100px;
+}
