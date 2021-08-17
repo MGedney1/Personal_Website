@@ -19,13 +19,19 @@ const Navbar = ({ lightTheme, setLightTheme }) =>{
                 {/* <a href="#testimonials" class='link' id='navbar_testimonials'>
                     Testimonials
                 </a> */}
+                <div id='theme_container'>
+                    <h4 id='theme_title'>
+                        Dark Theme: 
+                    </h4>
+                    <ToggleButton value={ !lightTheme } onToggle={() => { setLightTheme(!lightTheme) }}/> 
+                </div>
             </nav>
-            <div id='theme_container'>
+            {/* <div id='theme_container'>
                 <h4 id='theme_title'>
                     Dark Theme: 
                 </h4>
                 <ToggleButton value={ !lightTheme } onToggle={() => { setLightTheme(!lightTheme) }}/> 
-            </div>
+            </div> */}
             <a href="#contact" class='link' id='navbar_hire'>
                 Hire Me
                 <ArrowRightIcon class='arrow_right_icon'/>

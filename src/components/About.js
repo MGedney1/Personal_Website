@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar';
+import CV from '../Maurice Programming CV.pdf';
 
 const About = ({ lightTheme }) =>{
     return (
@@ -12,8 +13,13 @@ const About = ({ lightTheme }) =>{
                     I'm a recent graduate from University of Oxford with a passion for front end development.
                     <br />
                     I'm a fast learner and determined worker looking for remote work in the front end developent area.
+                    <br />
+                    Click below to download a copy of my CV.
                 </p>
                 <div id='about_links_container'> 
+                    <a href={CV} download>
+                        CV
+                    </a> <br />
                     <a href="#projects" class='about_link'>
                         See My Past Work
                     </a> <br />

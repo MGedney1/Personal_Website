@@ -28,7 +28,7 @@ const Contact = () =>{
     }
 
     return (
-        <section>
+        <section id='contact'>
             <h1 id='contact_title'>
                 Contact me
             </h1>
@@ -36,7 +36,7 @@ const Contact = () =>{
                 <h2 class='contact_section_title'>
                     Email
                 </h2>
-                <a>
+                <a href="mailto:maurice@gedney.uk">
                     maurice@gedney.uk
                 </a>
             </div>
