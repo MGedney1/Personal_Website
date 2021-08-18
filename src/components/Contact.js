@@ -22,7 +22,7 @@ const Contact = () =>{
         body: encode({ "form-name": "contact", name, email, message }),
 
       })
-        .then(setTimeout(() => alert("Message sent!"),0))
+        .then(setTimeout(() => alert("Message sent!"),1))
         .catch((error) => alert(error));
       
     }
