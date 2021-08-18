@@ -23,6 +23,12 @@ const Contact = () =>{
 
       })
         .then(() => window.alert("Message sent!"))
+        .then(Array.from(document.querySelectorAll("input")).forEach(
+            input => (input.value = "")
+        ))
+        .then(Array.from(document.querySelectorAll("textarea")).forEach(
+            input => (input.value = "")
+        ))
         .catch((error) => alert(error));
       
     }
