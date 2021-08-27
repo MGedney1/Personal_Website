@@ -15,6 +15,14 @@ export const projects = [
     image: "./Images/Sudoku Solver.gif",
     link: "https://github.com/MGedney1/Sudoku_Solver",
   },
+  {
+    title: "Artist Website",
+    subtitle: "HTML, CSS and JavaScript",
+    description:
+      "A responsive website built for an artist using HTML, CSS and JavaScript.",
+    image: "./Images/Polly Gedney Art.PNG",
+    link: "http://www.pollygedney.co.uk/",
+  },
 ];
 
 export const testimonials = [
