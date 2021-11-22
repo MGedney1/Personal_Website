@@ -14,7 +14,7 @@ const Projects = () =>{
                         Previous coding projects
                     </h1>
                     <p>
-                        See below for a brief summary of a couple of projects that I have built in the past
+                        See below for a brief summary of a some that I have worked on either solo or with a team in the past
                     </p>
                 </div>
                 <div>
